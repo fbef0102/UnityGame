@@ -901,6 +901,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 114
   m_CollisionDetection: 0
+--- !u!114 &32453886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 32453883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eecd58b8282edb9498447bd0581055a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &32871539 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4645417456094684, guid: 45727e5e8a5cdd14587bd61eccc909dc,
@@ -15688,6 +15699,10 @@ Prefab:
     - target: {fileID: 1100441787672724, guid: aaf71ba2a82661349a3e1062abbf5f98, type: 2}
       propertyPath: m_Name
       value: Box_6 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1100441787672724, guid: aaf71ba2a82661349a3e1062abbf5f98, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aaf71ba2a82661349a3e1062abbf5f98, type: 2}
